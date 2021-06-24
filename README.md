@@ -15,7 +15,7 @@ $ docker-compose down --rmi all --volumes --remove-orphans
 コンテナにアタッチ
 
 ```
-docker compose exec python3 bash
+$ docker-compose exec python3 bash
 ```
 
 python 実行(例としてsample.pyを実行する)
@@ -27,13 +27,13 @@ $ python sample.py 180.0
 コンテナ削除
 
 ```
-$ docker compose down
+$ docker-compose down
 ```
 
 コンテナ再起動
 
 ```
-$ docker compose up -d
+$ docker-compose up -d
 ```
 
 # Jupyter Notebookを使用する
@@ -41,13 +41,13 @@ $ docker compose up -d
 コンテナ内に入らずイメージだけ作成
 
 ```
-$ docker compose build
+$ docker-compose build
 ```
 
 イメージ確認
 
 ```
-$ docker image ls
+$ docker images
 ```
 Jupyter Notebookを起動
 
