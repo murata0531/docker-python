@@ -65,6 +65,6 @@ To access the server, open this file in a browser:
         http://127.0.0.1:8888/lab?token=xxxxxxxxxx
  ```
  
- ブラウザで'http://127.0.0.1:7777'にアクセス(今回はポート番号7777にしているが、特に指定はない)
+ ブラウザで `http://127.0.0.1:7777` にアクセス(今回はポート番号7777にしているが、特に指定はない)
  
  Token authentication is enabledというページが出るので、そこに上のメッセージでtoken=に続くコードをコピーしてPassword or tokenの入力欄に入力してLog inボタンを押す
